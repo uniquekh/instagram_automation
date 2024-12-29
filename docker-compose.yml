@@ -6,10 +6,10 @@ services:
     ports:
       - "5000:80"
     environment:
-      - API_ID=your_api_id
-      - API_HASH=your_api_hash
-      - CHAT_ID=your_chat_id
-      - INSTAGRAM_USERNAME=your_instagram_username
+      - API_ID= 24271143
+      - API_HASH= 27be842cb506de9b5520146dfd0ba299
+      - CHAT_ID= 7891240156:AAHdVaswxvXwRXZbzUdFy0sZQwUT5Qe_vnQ
+      - INSTAGRAM_USERNAME= insta_vgf
       - INSTAGRAM_PASSWORD=your_instagram_password
     volumes:
       - .:/app
