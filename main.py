@@ -111,7 +111,7 @@ if __name__ == "__main__":
                 clean_downloads_folder()
                 
                 # Wait for 3 hours before processing the next link
-                time.sleep(3 * 60 * 60)
+                time.sleep(10800)
             else:
                 print(result)
 
